@@ -1,58 +1,107 @@
 {
   "interests": [
     {
-      "label": "Quick and Easy Setup",
+      "label": "Angular",
       "image": {
-        "src": "../../images/joystick.png",
+        "src": "../../images/angular.png",
         "alt": ""
       }
     },
     {
-      "label": "Content via Markdown",
+      "label": "Golang",
       "image": {
-        "src": "../../images/notebook.png",
+        "src": "../../images/Go-Logo_Aqua.png",
         "alt": ""
       }
     },
     {
-      "label": "Responsive Design",
+      "label": "MySQL",
       "image": {
-        "src": "../../images/nail-polish.png",
+        "src": "../../images/logo-mysql-170x115.png",
         "alt": ""
       }
     },
     {
-      "label": "Medium Integration",
+      "label": "Typescript",
       "image": {
-        "src": "../../images/medium.png",
+        "src": "../../images/ts-logo-512.png",
         "alt": ""
       }
     },
     {
-      "label": "Animations",
+      "label": "Docker",
       "image": {
-        "src": "../../images/gem-stone.png",
+        "src": "../../images/Moby-logo.png",
         "alt": ""
       }
     },
     {
-      "label": "PWA (Offline Support)",
+      "label": "Git",
       "image": {
-        "src": "../../images/mobile-phone.png",
+        "src": "../../images/Git-Icon-1788C.png",
         "alt": ""
       }
     },
     {
-      "label": "Modern Tech-Stack",
+      "label": "Gitlab",
       "image": {
-        "src": "../../images/gatsby.png",
+        "src": "../../images/gitlab-logo-500.png",
         "alt": ""
       }
     },
     {
-      "label": "Blazing Fast",
+      "label": "Node.js",
       "image": {
-        "src": "../../images/high-voltage.png",
+        "src": "../../images/nodejs-icon.png",
+        "alt": ""
+      }
+    },
+    {
+      "label": "MongoDB",
+      "image": {
+        "src": "../../images/MongoDB-Emblem-500x313.jpg",
+        "alt": ""
+      }
+    },
+    {
+      "label": "Javascript",
+      "image": {
+        "src": "../../images/js.png",
+        "alt": ""
+      }
+    },
+    {
+      "label": "HTML & CSS",
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "label": "C#",
+      "image": {
+        "src": "../../images/c#logo.png",
+        "alt": ""
+      }
+    },
+    {
+      "label": "ArgoCD",
+      "image": {
+        "src": "../../images/argo-icon-color.png",
+        "alt": ""
+      }
+    },
+    {
+      "label": "Postman",
+      "image": {
+        "src": "../../images/postman-logo-orange-stacked.png",
+        "alt": ""
+      }
+    },
+    {
+      "label": "Puppeteer",
+      "image": {
+        "src": "../../images/pptrdev-official.png",
         "alt": ""
       }
     }

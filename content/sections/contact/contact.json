@@ -1,10 +1,10 @@
 {
-  "name": "Gatsby Starter For Portfolio Minimal",
-  "email": "example@mail.com",
-  "description": "If you have any problems with this theme, create an issue in the GitHub repository.",
+  "name": "Patrick Wong",
+  "email": "wp.patrickwong@gmail.com",
+  "description": "If you have any questions, feel free to reach out to me",
   "image": {
-    "src": "../../images/favicon.png",
-    "alt": "Gatsby Logo"
+    "src": "../../images/profile.jpeg",
+    "alt": "Logo"
   },
   "socialProfiles": {
     "from": ["LinkedIn", "Medium", "Github", "Mail"],

@@ -1,0 +1,40 @@
+body[data-theme='darkTheme'] {
+    --primary-color: #fafafa;
+    --secondary-color: #FF8552;
+    --tertiary-color: #252525;
+    --text-color: rgba(255, 255, 255, 0.87);
+    --subtext-color: #000F08;
+    --background-color: #868e97;
+    --card-background-color: #000f08;/*1c1c1c;*/ 
+    --scroll-bar-color: rgba(255, 255, 255, 0.5);
+    --box-shadow-color: rgba(0, 0, 0, 0.16);
+    --box-shadow-hover-color: rgba(0, 0, 0, 0.32);
+    --base-font: 'Roboto', Arial, sans-serif;
+    --code-block-bg: #151f28;
+    --code-block-var: #ff39a7;
+    --code-block-num: #fed703;
+    --code-block-fun: #c653ff;
+    --code-block-keyword: #2bdcff;
+    --code-block-comment: #8292a2;
+    --code-block-tkimp: #fd971f;
+}
+  
+header {
+    --background-color: #656b72;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.style-module--Profile--c97ff:hover svg {
+    filter: invert(0) !important; 
+    fill: #FF8552;
+}
+
+div:has(section):nth-child(even) {
+    --background-color: #7f868f;
+}
+
+section {
+    padding: 4em 0 0.1em 0;
+}
