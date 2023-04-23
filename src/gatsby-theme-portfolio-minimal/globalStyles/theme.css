@@ -38,3 +38,9 @@ div:has(section):nth-child(even) {
 section {
     padding: 4em 0 0.1em 0;
 }
+
+.Logo img {
+    width: 100px !important;
+    height: 80px !important;
+    object-fit: contain !important;
+}
