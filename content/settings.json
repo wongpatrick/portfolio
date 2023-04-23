@@ -15,7 +15,9 @@
     }
   },
   "siteConfiguration": {
-    "logo": { "image": "./images/logoShortFinal.png" },
+    "logo": { 
+      "text": "Patrick Wong"
+    },
     "navigation": {
       "header": [
         { "label": "About", "url": "/#about" },
