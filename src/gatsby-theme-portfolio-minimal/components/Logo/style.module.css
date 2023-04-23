@@ -10,9 +10,3 @@
     user-select: auto !important;
     line-height: 2.5rem;
 }
-
-.Logo img {
-    width: 100px !important;
-    height: 80px !important;
-    object-fit: contain !important;
-}
