@@ -1,44 +1,33 @@
 {
-  "name": "gatsby-starter-portfolio-minimal-theme",
+  "name": "portfolio_3d",
   "version": "1.0.0",
-  "description": "A Gatsby Starter Project to easily get started with the Portfolio Minimal Theme.",
+  "private": true,
   "scripts": {
-    "clean": "gatsby clean",
-    "develop": "gatsby develop",
-    "build": "gatsby build",
-    "serve": "gatsby serve"
-  },
-  "engines": {
-    "node": ">=18.0.0"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
-    "gatsby": "^5.0.1",
-    "gatsby-theme-portfolio-minimal": "latest",
-    "gatsby-transformer-inline-svg": "^1.2.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "canvas-confetti": "^1.9.4",
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.4.7",
+    "lucide-react": "^0.475.0",
+    "next": "15.2.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tailwind-merge": "^3.0.1",
+    "three": "^0.174.0"
   },
-  "author": "Konstantin Münster <mail@konstantin.digital>",
-  "license": "0BSD",
-  "starter-name": "gatsby-starter-portfolio-minimal-theme",
-  "homepage": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme#readme",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme.git"
-  },
-  "bugs": {
-    "url": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme/issues"
-  },
-  "keywords": [
-    "react",
-    "gatsby",
-    "gatsby-theme",
-    "PWA",
-    "portfolio",
-    "showcase",
-    "minimal",
-    "animations",
-    "dark-mode",
-    "gdpr-compliant"
-  ]
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.0.0",
+    "@types/canvas-confetti": "^1.9.0",
+    "@types/node": "^20.17.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@types/three": "^0.174.0",
+    "postcss": "^8.5.0",
+    "tailwindcss": "^4.0.0",
+    "typescript": "^5.7.3"
+  }
 }

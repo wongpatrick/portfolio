@@ -1,0 +1,168 @@
+@import "tailwindcss";
+
+:root {
+  --bg-deep: #07090e;
+  --bg-surface: #0e1422;
+  --bg-card: rgba(14, 20, 34, 0.85);
+  --border-cyber: rgba(0, 240, 255, 0.25);
+  --border-neon: rgba(240, 0, 255, 0.3);
+  --text-main: #e2e8f0;
+  --text-dim: #94a3b8;
+  --accent-cyan: #00f0ff;
+  --accent-magenta: #f000ff;
+  --accent-green: #00ff66;
+  --accent-amber: #ffb800;
+}
+
+body {
+  background-color: var(--bg-deep);
+  color: var(--text-main);
+  font-family: ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, "Liberation Mono", monospace;
+  overflow-x: hidden;
+  selection-background-color: #00f0ff;
+  selection-color: #07090e;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #07090e;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 240, 255, 0.3);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #00f0ff;
+}
+
+/* Cyber Glow Utilities */
+.text-glow-cyan {
+  text-shadow: 0 0 8px rgba(0, 240, 255, 0.8), 0 0 20px rgba(0, 240, 255, 0.4);
+}
+
+.text-glow-magenta {
+  text-shadow: 0 0 8px rgba(240, 0, 255, 0.8), 0 0 20px rgba(240, 0, 255, 0.4);
+}
+
+.text-glow-green {
+  text-shadow: 0 0 8px rgba(0, 255, 102, 0.8), 0 0 20px rgba(0, 255, 102, 0.4);
+}
+
+.text-glow-amber {
+  text-shadow: 0 0 8px rgba(255, 184, 0, 0.8), 0 0 20px rgba(255, 184, 0, 0.4);
+}
+
+.box-glow-cyan {
+  box-shadow: 0 0 15px rgba(0, 240, 255, 0.2), inset 0 0 15px rgba(0, 240, 255, 0.1);
+}
+
+.box-glow-magenta {
+  box-shadow: 0 0 15px rgba(240, 0, 255, 0.2), inset 0 0 15px rgba(240, 0, 255, 0.1);
+}
+
+.box-glow-green {
+  box-shadow: 0 0 15px rgba(0, 255, 102, 0.2), inset 0 0 15px rgba(0, 255, 102, 0.1);
+}
+
+/* Cyberpunk Grid Background */
+.cyber-grid {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(0, 240, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 240, 255, 0.05) 1px, transparent 1px);
+}
+
+/* Diagonal Hazard Stripes */
+.hazard-stripes {
+  background: repeating-linear-gradient(
+    -45deg,
+    rgba(255, 184, 0, 0.15),
+    rgba(255, 184, 0, 0.15) 10px,
+    transparent 10px,
+    transparent 20px
+  );
+}
+
+/* Scanlines Effect */
+.crt-scanlines {
+  background: linear-gradient(
+    rgba(18, 16, 16, 0) 50%, 
+    rgba(0, 0, 0, 0.25) 50%
+  ), linear-gradient(
+    90deg,
+    rgba(255, 0, 0, 0.03),
+    rgba(0, 255, 0, 0.01),
+    rgba(0, 0, 255, 0.03)
+  );
+  background-size: 100% 3px, 6px 100%;
+  pointer-events: none;
+}
+
+/* Cyberpunk Chamfered Corners */
+.cyber-clip {
+  clip-path: polygon(
+    0 12px,
+    12px 0,
+    100% 0,
+    100% calc(100% - 12px),
+    calc(100% - 12px) 100%,
+    0 100%
+  );
+}
+
+.cyber-clip-tr {
+  clip-path: polygon(
+    0 0,
+    calc(100% - 16px) 0,
+    100% 16px,
+    100% 100%,
+    0 100%
+  );
+}
+
+/* Pulse Keyframes */
+@keyframes cyber-pulse {
+  0%, 100% {
+    opacity: 0.8;
+  }
+  50% {
+    opacity: 0.3;
+  }
+}
+
+.animate-cyber-pulse {
+  animation: cyber-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Glitch Flicker */
+@keyframes glitch-flicker {
+  0% {
+    opacity: 0.98;
+  }
+  50% {
+    opacity: 1;
+  }
+  52% {
+    opacity: 0.9;
+  }
+  54% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 0.95;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.animate-flicker {
+  animation: glitch-flicker 0.15s infinite;
+}
